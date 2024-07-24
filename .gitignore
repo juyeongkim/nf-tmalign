@@ -1,0 +1,5 @@
+nextflow
+.nextflow*
+work
+playground
+.DS_Store
