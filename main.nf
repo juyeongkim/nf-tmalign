@@ -21,7 +21,7 @@ process TMalign {
   script:
   """
   #!/bin/bash
-  /TM-align/TMalign ${p1} ${p2} 1> ${p1.simpleName}._.${p2.simpleName}.out
+  /TM-align/TMalign ${p1} ${p2} 1> ${p1.baseName}._.${p2.baseName}.out
   """
 }
 
